@@ -7,3 +7,8 @@ fields:
   config: {}
   template: home-hero
   label: Hero
+- name: '1'
+  type: include
+  config: {}
+  template: home
+  label: '1'
