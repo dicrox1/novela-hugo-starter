@@ -7,6 +7,15 @@ fields:
   config:
     maxSize: 8
   label: Big image
+- name: text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text area
 - name: hero
   type: include
   config: {}
@@ -17,12 +26,3 @@ fields:
   config: {}
   template: home
   label: '1'
-- name: text_area
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Text area
