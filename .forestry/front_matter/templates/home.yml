@@ -9,7 +9,7 @@ fields:
   label: Big image
 - name: text_area
   type: textarea
-  default: ''
+  default: none
   config:
     required: false
     wysiwyg: false
